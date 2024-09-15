@@ -53,6 +53,20 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+ul {
+  list-style-type: none; /* Прибирає маркування крапкою */
+  padding: 0; /* Видаляє внутрішні відступи */
+  margin: 0; /* Видаляє зовнішні відступи */
+}
+.no-bullets {
+  list-style-type: none; /* Прибирає маркування або нумерацію */
+  padding: 0; /* Видаляє внутрішні відступи */
+  margin: 0; /* Видаляє зовнішні відступи */
+}
+
+.no-bullets li {
+  margin-bottom: 8px; /* Додає відступ між елементами списку (опційно) */
+}
 
 @media (prefers-color-scheme: light) {
   :root {
